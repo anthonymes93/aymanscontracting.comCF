@@ -401,7 +401,7 @@ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(argumen
 			<label class="wpforms-field-label" for="wpforms-98-field_3">Comment or Message</label>
 			<input type="text" id="wpforms-98-field_3" class="wpforms-field-medium" name="wpforms[fields][3]">
 		</div>
-		<div id="wpforms-98-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-98-field_1" aria-hidden="false">Email <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="email" id="wpforms-98-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Email Address" spellcheck="false" aria-errormessage="wpforms-98-field_1-error" required></div><div id="wpforms-98-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-98-field_2" aria-hidden="false">Comment or Message</label><textarea id="wpforms-98-field_2" class="wpforms-field-medium" name="wpforms[fields][2]" placeholder="Comment or Message" aria-errormessage="wpforms-98-field_2-error"></textarea></div><script>
+		<div id="wpforms-98-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-98-field_1" aria-hidden="false">Email</label><input type="email" id="wpforms-98-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Email Address (optional if phone provided)" spellcheck="false" aria-errormessage="wpforms-98-field_1-error"></div><div id="aymans-phone-field" class="wpforms-field wpforms-field-text"><label class="wpforms-field-label wpforms-label-hide" for="aymans-phone">Phone</label><input type="tel" id="aymans-phone" class="wpforms-field-medium" name="aymans_phone" placeholder="Phone Number (optional if email provided)" autocomplete="tel"></div><div id="wpforms-98-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-98-field_2" aria-hidden="false">Comment or Message</label><textarea id="wpforms-98-field_2" class="wpforms-field-medium" name="wpforms[fields][2]" placeholder="Comment or Message" aria-errormessage="wpforms-98-field_2-error"></textarea></div><script>
 				( function() {
 					const style = document.createElement( 'style' );
 					style.appendChild( document.createTextNode( '#wpforms-98-field_3-container { position: absolute !important; overflow: hidden !important; display: inline !important; height: 1px !important; width: 1px !important; z-index: -1000 !important; padding: 0 !important; } #wpforms-98-field_3-container input { visibility: hidden; } #wpforms-conversational-form-page #wpforms-98-field_3-container label { counter-increment: none; }' ) );
@@ -587,6 +587,7 @@ if(widgetId===undefined)throw Error("Verification setup failed");return t;
 }).catch(function(e){status.textContent=e.message;throw e});
 form.addEventListener("submit",function(event){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();if(working)return;
 if(!form.reportValidity())return;
+if(!form.querySelector('[name="wpforms[fields][1]"]').value.trim()&&!form.querySelector("#aymans-phone").value.trim()){status.textContent="Please provide an email address or phone number.";return;}
 working=true;button.disabled=true;button.textContent="Sending...";status.textContent="";
 var timerId=null,controller=new AbortController();
 ready.then(async function(t){
@@ -597,7 +598,7 @@ try{t.reset(widgetId);t.execute(widgetId)}catch(e){clearTimeout(timeout);tokenWa
 });
 var first=form.querySelector('[name="wpforms[fields][0][first]"]').value.trim(),last=form.querySelector('[name="wpforms[fields][0][last]"]').value.trim();
 timerId=setTimeout(function(){controller.abort()},20000);
-var response=await fetch("/api/contact",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:[first,last].filter(Boolean).join(" "),email:form.querySelector('[name="wpforms[fields][1]"]').value.trim(),message:form.querySelector('[name="wpforms[fields][2]"]').value.trim(),turnstileToken:token}),signal:controller.signal});
+var response=await fetch("/api/contact",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:[first,last].filter(Boolean).join(" "),email:form.querySelector('[name="wpforms[fields][1]"]').value.trim(),phone:form.querySelector("#aymans-phone").value.trim(),company_url:form.querySelector('[name="wpforms[fields][3]"]')?.value||"",message:form.querySelector('[name="wpforms[fields][2]"]').value.trim(),turnstileToken:token}),signal:controller.signal});
 clearTimeout(timerId);
 var result=await response.json().catch(function(){return{}});
 if(!response.ok)throw Error(result.error||"Message could not be sent. Please try again.");
