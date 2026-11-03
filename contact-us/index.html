@@ -557,5 +557,51 @@ var wpforms_settings = {"val_required":"This field is required.","val_email":"Pl
 /* ]]> */
 </script>
 
+
+<style id="aymans-contact-style">
+#wpforms-form-98{position:relative}#wpforms-form-98 .aymans-turnstile{margin:12px 0;min-height:2px}
+#wpforms-form-98 .aymans-form-status{font:500 14px/1.5 system-ui;margin:12px 0;color:#b42318}
+#wpforms-form-98 .aymans-form-success{box-sizing:border-box;position:absolute;z-index:10;inset:0;min-height:100%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;border-radius:8px;color:#19374b;box-shadow:0 2px 20px #00000012}
+#wpforms-form-98 .aymans-form-success .check{background:#e4f6ed;color:#16854f;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font:700 34px system-ui;margin-bottom:15px}
+#wpforms-form-98 .aymans-form-success h3{font:700 26px system-ui;margin:0 0 8px;color:#172f45}
+#wpforms-form-98 .aymans-form-success p{font:400 16px/1.6 system-ui;margin:0;max-width:370px}
+</style>
+<script id="aymans-contact-script">
+(function(){
+var form=document.getElementById("wpforms-form-98");if(!form)return;
+form.classList.remove("wpforms-ajax-form");
+var button=form.querySelector('button[type="submit"]'),status=document.createElement("p"),slot=document.createElement("div");
+status.className="aymans-form-status";status.setAttribute("role","alert");
+slot.className="aymans-turnstile";
+button.parentNode.insertBefore(slot,button);button.parentNode.insertBefore(status,button);
+var widgetId=null,siteKey=null,working=false,tokenWait=null;
+function err(message){status.textContent=message;working=false;button.disabled=false;button.textContent="Submit";}
+var configPromise=fetch("/api/contact-config",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Form configuration unavailable");return r.json()}).then(function(data){if(!data.siteKey)throw Error("Turnstile site key is not configured");siteKey=data.siteKey;return siteKey});
+function loadTurnstile(){if(window.turnstile)return Promise.resolve(window.turnstile);return new Promise(function(resolve,reject){var script=document.createElement("script");script.src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";script.async=true;script.onload=function(){window.turnstile?resolve(window.turnstile):reject(Error("Verification could not load"))};script.onerror=function(){reject(Error("Verification could not load"))};document.head.appendChild(script)})}
+var ready=Promise.all([configPromise,loadTurnstile()]).then(function(values){
+var t=values[1];widgetId=t.render(slot,{sitekey:siteKey,execution:"execute",appearance:"interaction-only","callback":function(token){if(tokenWait){tokenWait.resolve(token);tokenWait=null}},"error-callback":function(code){if(tokenWait){tokenWait.reject(Error("Verification error"+(code?" ("+code+")":"")));tokenWait=null}},"expired-callback":function(){if(tokenWait){tokenWait.reject(Error("Verification expired"));tokenWait=null}}});
+if(widgetId===undefined)throw Error("Verification setup failed");return t;
+}).catch(function(e){status.textContent=e.message;throw e});
+form.addEventListener("submit",function(event){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();if(working)return;
+if(!form.reportValidity())return;
+working=true;button.disabled=true;button.textContent="Sending...";status.textContent="";
+var timerId=null,controller=new AbortController();
+ready.then(async function(t){
+var token=await new Promise(function(resolve,reject){
+var timeout=setTimeout(function(){if(tokenWait){tokenWait=null;reject(Error("Verification did not complete. Please try again."))}},15000);
+tokenWait={resolve:function(v){clearTimeout(timeout);resolve(v)},reject:function(e){clearTimeout(timeout);reject(e)}};
+try{t.reset(widgetId);t.execute(widgetId)}catch(e){clearTimeout(timeout);tokenWait=null;reject(e)}
+});
+var first=form.querySelector('[name="wpforms[fields][0][first]"]').value.trim(),last=form.querySelector('[name="wpforms[fields][0][last]"]').value.trim();
+timerId=setTimeout(function(){controller.abort()},20000);
+var response=await fetch("/api/contact",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:[first,last].filter(Boolean).join(" "),email:form.querySelector('[name="wpforms[fields][1]"]').value.trim(),message:form.querySelector('[name="wpforms[fields][2]"]').value.trim(),turnstileToken:token}),signal:controller.signal});
+clearTimeout(timerId);
+var result=await response.json().catch(function(){return{}});
+if(!response.ok)throw Error(result.error||"Message could not be sent. Please try again.");
+form.reset();var thanks=document.createElement("div");thanks.className="aymans-form-success";thanks.setAttribute("role","status");thanks.innerHTML='<div class="check" aria-hidden="true">&#10003;</div><h3>Thank you!</h3><p>Your message has been sent. We&rsquo;ll be in touch as soon as possible.</p>';form.appendChild(thanks);working=false;
+}).catch(function(e){if(timerId)clearTimeout(timerId);err(e.name==="AbortError"?"Sending timed out. Please try again.":e.message||"Unable to send your message.")});
+},true);
+})();
+</script>
 </body>
 </html>
