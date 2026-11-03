@@ -1275,6 +1275,9 @@ var wpforms_settings = {"val_required":"This field is required.","val_email":"Pl
 (function(){
 var form=document.getElementById("wpforms-form-98");if(!form)return;
 form.classList.remove("wpforms-ajax-form");
+// Prevent legacy WPForms validation/AJAX listeners from submitting to WordPress.
+if(window.jQuery){window.jQuery(form).off("submit");}
+form.removeAttribute("data-token");form.removeAttribute("data-token-time");
 var button=form.querySelector('button[type="submit"]'),status=document.createElement("p"),slot=document.createElement("div");
 status.className="aymans-form-status";status.setAttribute("role","alert");
 slot.className="aymans-turnstile";
