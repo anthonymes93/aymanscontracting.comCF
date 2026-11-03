@@ -1,0 +1,1321 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Roofia - Roofing Services Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.5",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/home.foxcreation.net",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home Two",
+            "screenshot": "screenshots\/home-two.jpg",
+            "source": "templates\/home-two.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/home-two\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Projects",
+            "screenshot": "screenshots\/projects.jpg",
+            "source": "templates\/projects.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Service",
+            "screenshot": "screenshots\/single-service.jpg",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Form",
+            "screenshot": "screenshots\/contact-form.jpg",
+            "source": "templates\/contact-form.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Error 404",
+            "screenshot": "screenshots\/error-404.jpg",
+            "source": "templates\/error-404.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/error-404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Booking Form",
+            "screenshot": "screenshots\/booking-form.jpg",
+            "source": "templates\/booking-form.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/booking-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Newsletter Form",
+            "screenshot": "screenshots\/newsletter-form.jpg",
+            "source": "templates\/newsletter-form.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/newsletter-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/home.foxcreation.net\/roofia\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.23.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.2.5",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.8.9",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "roof-construction-and-ceramic-tiles-installation-2022-10-26-03-47-29-SFVH9PK-b.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/roof-construction-and-ceramic-tiles-installation-2022-10-26-03-47-29-SFVH9PK-b.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 205243,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/roof-construction-and-ceramic-tiles-installation-SFVH9PK"
+        },
+        {
+            "filename": "new-ceramic-house-roof-2022-10-20-01-18-18-RPV3J5M-a.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/new-ceramic-house-roof-2022-10-20-01-18-18-RPV3J5M-a.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 143063,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/new-ceramic-house-roof-RPV3J5M"
+        },
+        {
+            "filename": "black-ceramic-roof-tiles-2022-10-26-03-40-26-LYZDPRS.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/black-ceramic-roof-tiles-2022-10-26-03-40-26-LYZDPRS.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 180756,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/black-ceramic-roof-tiles-LYZDPRS"
+        },
+        {
+            "filename": "selective-focus-of-handsome-handyman-repairing-roo-2022-11-02-02-54-59-UKNVMRC.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/selective-focus-of-handsome-handyman-repairing-roo-2022-11-02-02-54-59-UKNVMRC.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 86035,
+            "dimensions": [
+                600,
+                573
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/selective-focus-of-handsome-handyman-repairing-roo-UKNVMRC"
+        },
+        {
+            "filename": "logo111.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/logo111.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 4421,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "logo222.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/logo222.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3527,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "logo333.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/logo333.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2876,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "logo444.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/logo444.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3448,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "logo555.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/logo555.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2947,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "icon-1.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1598,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/set-line-outline-icons-of-roof-YKTEK9D"
+        },
+        {
+            "filename": "icon-2.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1471,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/set-line-outline-icons-of-roof-YKTEK9D"
+        },
+        {
+            "filename": "icon-3.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 3037,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/set-line-outline-icons-of-roof-YKTEK9D"
+        },
+        {
+            "filename": "icon-4.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2456,
+            "dimensions": [
+                128,
+                128
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/set-line-outline-icons-of-roof-YKTEK9D"
+        },
+        {
+            "filename": "selective-focus-of-handyman-holding-hammer-while-r-2022-11-03-03-49-46-8KB24RL.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/selective-focus-of-handyman-holding-hammer-while-r-2022-11-03-03-49-46-8KB24RL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 194358,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/selective-focus-of-handyman-holding-hammer-while-r-8KB24RL"
+        },
+        {
+            "filename": "repairman-in-helmet-holding-hammer-while-repairing-2022-11-02-03-50-58-E2M98F8.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/repairman-in-helmet-holding-hammer-while-repairing-2022-11-02-03-50-58-E2M98F8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 125352,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/repairman-in-helmet-holding-hammer-while-repairing-E2M98F8"
+        },
+        {
+            "filename": "finishing-ceramic-roof-2022-10-26-03-44-06-23YNVY8-a.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/finishing-ceramic-roof-2022-10-26-03-44-06-23YNVY8-a-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 237715,
+            "dimensions": [
+                1024,
+                682
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/finishing-ceramic-roof-23YNVY8"
+        },
+        {
+            "filename": "a-professional-master-roofer-with-hammer-repairs-2022-04-25-12-52-41-G9H4KX5-a.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/a-professional-master-roofer-with-hammer-repairs-2022-04-25-12-52-41-G9H4KX5-a-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 249380,
+            "dimensions": [
+                1216,
+                810
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/a-professional-master-roofer-with-hammer-repairs-t-G9H4KX5"
+        },
+        {
+            "filename": "roofer-builder-working-on-roof-structure-at-constr-2021-08-28-15-56-12-LW5FL7H-a.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/roofer-builder-working-on-roof-structure-at-constr-2021-08-28-15-56-12-LW5FL7H-a.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 172047,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/roofer-builder-working-on-roof-structure-at-constr-LW5FL7H"
+        },
+        {
+            "filename": "roof-of-a-new-house-made-from-yellow-roofing-tiles-2022-01-11-03-01-52-RZ7XCF8-1.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/roof-of-a-new-house-made-from-yellow-roofing-tiles-2022-01-11-03-01-52-RZ7XCF8-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                }
+            ],
+            "filesize": 227483,
+            "dimensions": [
+                1152,
+                768
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-RZ7XCF8"
+        },
+        {
+            "filename": "back-view-of-handyman-in-uniform-and-helmet-repair-2022-11-01-23-18-15-JBXPTMV.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/back-view-of-handyman-in-uniform-and-helmet-repair-2022-11-01-23-18-15-JBXPTMV.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 188040,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/back-view-of-handyman-in-uniform-and-helmet-repair-JBXPTMV"
+        },
+        {
+            "filename": "focused-builder-is-adjusting-a-wooden-bar-to-a-roo-2021-09-03-21-02-34-Q4L5XAM.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/focused-builder-is-adjusting-a-wooden-bar-to-a-roo-2021-09-03-21-02-34-Q4L5XAM.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 59046,
+            "dimensions": [
+                460,
+                405
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/focused-builder-is-adjusting-a-wooden-bar-to-a-roo-Q4L5XAM"
+        },
+        {
+            "filename": "cropped-view-of-builder-holding-hummer-and-nail-wh-2022-11-03-03-53-12-FM77ZCC.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/cropped-view-of-builder-holding-hummer-and-nail-wh-2022-11-03-03-53-12-FM77ZCC.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 134308,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/cropped-view-of-builder-holding-hummer-and-nail-wh-QV8E7PY"
+        },
+        {
+            "filename": "selective-focus-of-happy-repairman-holding-rolled-2022-11-02-00-51-06-RF9G77H.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/selective-focus-of-happy-repairman-holding-rolled-2022-11-02-00-51-06-RF9G77H.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 215299,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/selective-focus-of-happy-repairman-holding-rolled--RF9G77H"
+        },
+        {
+            "filename": "handyman-in-helmet-giving-toolbox-to-handsome-coll-2022-11-01-23-12-55-UDC9WLE.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/handyman-in-helmet-giving-toolbox-to-handsome-coll-2022-11-01-23-12-55-UDC9WLE.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 89012,
+            "dimensions": [
+                620,
+                600
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/handyman-in-helmet-giving-toolbox-to-handsome-coll-UDC9WLE"
+        },
+        {
+            "filename": "team-1.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/team-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 26204,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-2.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/team-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 29996,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-3.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/team-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 26202,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-4.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2024\/08\/team-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-two.json",
+                    "name": "Home Two"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 45047,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "roofing-construction-job-2022-10-26-03-42-56-3NS5FFT-b.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/roofing-construction-job-2022-10-26-03-42-56-3NS5FFT-b.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 226252,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/roofing-construction-job-3NS5FFT"
+        },
+        {
+            "filename": "back-view-of-handyman-in-uniform-and-helmet-repair-2022-11-01-23-18-15-JBXPTMV-a.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/back-view-of-handyman-in-uniform-and-helmet-repair-2022-11-01-23-18-15-JBXPTMV-a.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 84104,
+            "dimensions": [
+                900,
+                405
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/back-view-of-handyman-in-uniform-and-helmet-repair-JBXPTMV"
+        },
+        {
+            "filename": "smiling-beautiful-joyous-woman-engineer-looking-fo-2021-09-03-21-03-06-KFA9J4W.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/smiling-beautiful-joyous-woman-engineer-looking-fo-2021-09-03-21-03-06-KFA9J4W.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 41557,
+            "dimensions": [
+                400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-KFA9J4W"
+        },
+        {
+            "filename": "gladsome-architect-posing-proudly-at-a-constructio-2021-09-03-21-03-21-5977MLP.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/gladsome-architect-posing-proudly-at-a-constructio-2021-09-03-21-03-21-5977MLP.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 70902,
+            "dimensions": [
+                400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-5977MLP"
+        },
+        {
+            "filename": "construction-worker-with-a-pencil-looking-ahead-2022-02-08-02-44-33-V59D8G7.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/construction-worker-with-a-pencil-looking-ahead-2022-02-08-02-44-33-V59D8G7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 53057,
+            "dimensions": [
+                400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-V59D8G7"
+        },
+        {
+            "filename": "wooden-roof-frame-building-2022-10-26-03-40-30-KRNSTB3.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/wooden-roof-frame-building-2022-10-26-03-40-30-KRNSTB3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 158908,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-KRNSTB3"
+        },
+        {
+            "filename": "selective-focus-of-happy-handyman-in-uniform-near-2022-11-03-04-09-31-9F2B74D.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/selective-focus-of-happy-handyman-in-uniform-near-2022-11-03-04-09-31-9F2B74D.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 161526,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-9F2B74D"
+        },
+        {
+            "filename": "low-angle-view-of-handyman-in-helmet-giving-toolbo-2022-11-02-03-33-06-CTJDZ4W.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/low-angle-view-of-handyman-in-helmet-giving-toolbo-2022-11-02-03-33-06-CTJDZ4W.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 125595,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-CTJDZ4W"
+        },
+        {
+            "filename": "construction-contractor-portrait-2022-10-26-03-41-50-PYUSMHB.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/construction-contractor-portrait-2022-10-26-03-41-50-PYUSMHB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 61555,
+            "dimensions": [
+                400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-PYUSMHB"
+        },
+        {
+            "filename": "cheerful-young-man-builder-standing-at-constructio-2021-10-06-18-11-26-5UEXT86.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/cheerful-young-man-builder-standing-at-constructio-2021-10-06-18-11-26-5UEXT86.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 45008,
+            "dimensions": [
+                400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-5UEXT86"
+        },
+        {
+            "filename": "selective-focus-of-happy-repairman-standing-with-c-2022-11-02-01-58-52-KMXSH29.jpg",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/selective-focus-of-happy-repairman-standing-with-c-2022-11-02-01-58-52-KMXSH29.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 35117,
+            "dimensions": [
+                400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-KMXSH29"
+        },
+        {
+            "filename": "roofia-logo2.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/roofia-logo2.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 4418,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "roofia-logo1.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/roofia-logo1.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 4803,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo666.png",
+            "thumbnail_url": "https:\/\/home.foxcreation.net\/roofia\/wp-content\/uploads\/sites\/2\/2023\/12\/logo666.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 2685,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        }
+    ]
+}

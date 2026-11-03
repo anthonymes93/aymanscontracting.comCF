@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.es-social-bar {
+  position: fixed !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 9999 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  font-family: 'Poppins', sans-serif !important;
+
+  --icon-size: 16px;
+  --follow-text-size: 12px;
+  --line-height: calc(var(--icon-size) + 10px);
+
+  /* Bar is .es-mode-gradient by default, or changed by JS to .es-mode-black/.es-mode-white */
+}
+
+/* Poziții */
+.es-position-left {
+  left: 50px !important;
+}
+.es-position-right {
+  right: 50px !important;
+}
+
+/* Ascunde pe mobile (dacă setarea e "no") */
+@media (max-width: 768px) {
+  .es-hide-on-mobile {
+    display: none !important;
+  }
+}
+
+/* Lista de iconițe */
+.es-icons-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.es-icon-item {
+  margin: 8px 0 !important;
+}
+.es-icon-item a {
+  text-decoration: none !important;
+  color: inherit !important;
+  font-size: var(--icon-size) !important;
+  transition: color 0.2s ease-in-out !important;
+}
+
+.es-line {
+  width: 3px !important;
+  height: var(--line-height) !important;
+  background: currentColor !important;
+  margin: 10px 0 !important;
+}
+
+.es-follow-us {
+  margin-top: 10px !important;
+  font-weight: 600 !important;
+  font-size: var(--follow-text-size) !important;
+  letter-spacing: 1px !important;
+  writing-mode: vertical-rl !important;
+  text-orientation: mixed !important;
+}
+
+/* =========== MODURI =========== */
+/* near-white => black text */
+.es-mode-black {
+  color: #000000 !important;
+}
+/* near-black => white text */
+.es-mode-white {
+  color: #ffffff !important;
+}
+.es-mode-gradient {
+    color: transparent !important;
+    background: #fff !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+}
+.es-mode-gradient .es-line {
+    background: #fff !important;
+}
+
+/* =========== BRAND HOVERS =========== */
+.es-icon-facebook a:hover {
+  color: #3b5998 !important;
+}
+.es-icon-instagram a:hover {
+  color: #E4405F !important;
+}
+.es-icon-twitter a:hover {
+  color: #1DA1F2 !important;
+}
+.es-icon-linkedin a:hover {
+  color: #0077B5 !important;
+}
+.es-icon-youtube a:hover {
+  color: #FF0000 !important;
+}
+.es-icon-tiktok a:hover {
+  color: #69C9D0 !important;
+}
+.es-icon-custom a:hover {
+  /* culoare "generic" la hover, adaptabil */
+  color: #ff0080 !important;
+}
